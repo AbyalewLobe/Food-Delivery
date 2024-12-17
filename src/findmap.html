@@ -17,7 +17,7 @@
         <!-- for content  -->
         <div>
           <!-- for description  -->
-          <div class="flex flex-col justify-center gap-10">
+          <div class="flex flex-col justify-center gap-10 mb-10">
             <div class="font-bold text-5xl">
               Food Map with more than 9000 Restaurants
             </div>
@@ -27,9 +27,17 @@
               </p>
             </div>
             <!-- for input  -->
-            <div>
-              <input type="text" placeholder="Search....." class="" />
-              <button><i class="fas fa-search text-black"></i></button>
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="Search....."
+                class="border rounded-lg px-4 py-2 w-1/2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+              />
+              <button
+                class="p-1 rounded-lg -translate-y-1/2 absolute right-60 md:right-60 top-1/2"
+              >
+                <i class="fas fa-search text-black"></i>
+              </button>
             </div>
           </div>
         </div>
