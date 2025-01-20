@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Map</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <div
-      class="container mx-auto px-4 min-h-screen flex items-center bg-slate-100"
-    >
-      <div class="flex flex-col md:flex-row justify-center items-center">
-        <!-- for image  -->
-        <div><img src="/assets/map.webp" alt="" /></div>
-        <!-- for content  -->
+  <title>Map</title>
+</head>
+
+<body>
+  <div class="container mx-auto px-4 min-h-screen flex items-center bg-slate-100">
+    <div class="flex flex-col md:flex-row justify-center mx-auto items-center">
+      <!-- for image  -->
+      <div><img src="/assets/map.webp" alt="" /></div>
+      <!-- for content  -->
+
+      <!-- for description  -->
+      <div class="flex flex-col justify-center w-full  md:w-1/2 gap-10 mb-10">
+        <div class="font-bold text-3xl">
+          Food Map with more than 9000 Restaurants
+        </div>
         <div>
-          <!-- for description  -->
-          <div class="flex flex-col justify-center gap-10 mb-10">
-            <div class="font-bold text-5xl">
-              Food Map with more than 9000 Restaurants
-            </div>
-            <div>
-              <p class="font-light text-sm">
-                Explore a variety of restaurants.
-              </p>
-            </div>
-            <!-- for input  -->
-            <div class="relative">
-              <input
-                type="text"
-                placeholder="Search....."
-                class="border rounded-lg px-4 py-2 w-1/2 focus:outline-none focus:ring-2 focus:ring-orange-500"
-              />
-              <button
-                class="p-1 rounded-lg -translate-y-1/2 absolute right-60 md:right-60 top-1/2"
-              >
-                <i class="fas fa-search text-black"></i>
-              </button>
-            </div>
-          </div>
+          <p class="font-light text-sm">
+            Explore a variety of restaurants.
+          </p>
+        </div>
+        <!-- for input  -->
+        <div class="relative w-full md:w-1/2">
+          <input type="text" placeholder="Search....."
+            class="border rounded-lg px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-orange-500" />
+          <button class="p-1 rounded-lg -translate-y-1/2 absolute right-3 top-1/2">
+            <i class="fas fa-search text-black"></i>
+          </button>
         </div>
       </div>
+
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
