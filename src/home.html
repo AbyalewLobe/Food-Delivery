@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+  </head>
 
-  <title>Home</title>
+  <body>
+    <div
+      class="container mx-auto px-4 min-h-screen flex items-center bg-green-500 relative"
+    >
+      <!-- Main Wrapper -->
+      <div
+        class="flex flex-col md:flex-row items-center p-10 gap-6 md:gap-12 w-full bg-green-500"
+      >
+        <!-- Left Section -->
+        <div class="flex-1 text-center md:text-left">
+          <h4 class="text-orange-500 text-lg font-medium">
+            Best food in somthing
+          </h4>
+          <h1 class="text-4xl md:text-6xl font-bold text-white mt-2">
+            Food Delivery
+          </h1>
+          <p class="text-white mt-4">
+            Delivery Food from the Best Restaurants.
+          </p>
+          <div class="relative w-64 mt-5">
+            <input
+              type="text"
+              placeholder="Search for food..."
+              class="border rounded-lg px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-orange-500"
+            />
+            <button
+              class="p-1 rounded-lg -translate-y-1/2 absolute right-1 top-1/2"
+            >
+              <i class="fas fa-search text-black"></i>
+            </button>
+          </div>
 
-</head>
-
-<body>
-
-  <div class="container mx-auto px-4 min-h-screen flex  items-center bg-green-500 relative ">
-    <!-- Main Wrapper -->
-    <div class="flex flex-col md:flex-row items-center p-10 gap-6 md:gap-12 w-full bg-green-500 ">
-      <!-- Left Section -->
-      <div class="flex-1 text-center md:text-left">
-        <h4 class="text-orange-500 text-lg font-medium">Best food in somthing</h4>
-        <h1 class="text-4xl md:text-6xl font-bold text-white mt-2">Food Delivery</h1>
-        <p class="text-white mt-4 ">
-          Delivery Food from the Best Restaurants.
-        </p>
-        <div class="relative w-64 mt-5">
-          <input type="text" placeholder="Search for food..."
-            class="border rounded-lg px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-orange-500" />
-          <button class="p-1 rounded-lg  -translate-y-1/2 absolute right-1 top-1/2">
-            <i class="fas fa-search text-black"></i>
-          </button>
+          <div class="pt-10 flex gap-3 absolute bottom-10 left-1 pl-4">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+          </div>
         </div>
 
-        <div class="pt-10 flex gap-3 absolute bottom-10 left-1">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-telegram"></i>
+        <!-- Right Section (Image) -->
+        <div class="flex-1 md:p-10">
+          <img
+            src="/assets/image1.avif"
+            alt="Food Delivery"
+            class="md:w-full w-1/2 m-auto rounded-lg shadow-md"
+          />
         </div>
       </div>
-
-      <!-- Right Section (Image) -->
-      <div class="flex-1 md:p-10">
-        <img src="/assets/image1.avif" alt="Food Delivery" class="md:w-full w-1/2 m-auto  rounded-lg  shadow-md" />
-      </div>
-
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
